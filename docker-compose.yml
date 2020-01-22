@@ -1,0 +1,15 @@
+version: "3.7"
+services:
+  big_data_course:
+    container_name: big_data_course
+    image: stephanegaiffas/big_data_course:v1
+    ports:
+      - "8192:8192"
+      - "8888:8888"
+      - "4040:4040"
+    restart: always
+    volumes:
+      - "/home/yuchen/Documents/Master/BigData/:/opt/polynote/notebooks/"
+    restart: always
+    environment:
+      - PYSPARK_ALLOW_INSECURE_GATEWAY=1
