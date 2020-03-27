@@ -1,0 +1,15 @@
+{
+    "active": true,
+    "age": 78,
+    "balance": 345.8,
+    "friends": [
+        "Jane",
+        "John"
+    ],
+    "name": "Foo Bar",
+    "other_names": [
+        "Doe",
+        "Joe"
+    ],
+    "spouse": null
+}
