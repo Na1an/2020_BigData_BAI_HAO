@@ -1,2 +1,4 @@
 documents
 *.jpg
+Notebooks/.ipynb_checkpoints/*.ipynb
+Homeworks/*.csv
